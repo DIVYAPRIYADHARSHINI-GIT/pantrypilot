@@ -1,0 +1,66 @@
+{
+  "base": "http://127.0.0.1:4173",
+  "overall": 100,
+  "results": [
+    {
+      "name": "bill-clean",
+      "title": "Clean layout",
+      "expected": 6,
+      "parsed": 6,
+      "correct": 6,
+      "pct": 100,
+      "seconds": "1.4",
+      "stage": "review",
+      "missing": [],
+      "extras": []
+    },
+    {
+      "name": "bill-layout2",
+      "title": "Different layout (S.No columns)",
+      "expected": 6,
+      "parsed": 6,
+      "correct": 6,
+      "pct": 100,
+      "seconds": "0.7",
+      "stage": "review",
+      "missing": [],
+      "extras": []
+    },
+    {
+      "name": "bill-lowcontrast",
+      "title": "Low contrast / faded",
+      "expected": 5,
+      "parsed": 5,
+      "correct": 5,
+      "pct": 100,
+      "seconds": "0.7",
+      "stage": "review",
+      "missing": [],
+      "extras": []
+    },
+    {
+      "name": "bill-many",
+      "title": "Many items",
+      "expected": 21,
+      "parsed": 21,
+      "correct": 21,
+      "pct": 100,
+      "seconds": "1.4",
+      "stage": "review",
+      "missing": [],
+      "extras": []
+    },
+    {
+      "name": "bill-rotated",
+      "title": "Slightly rotated",
+      "expected": 5,
+      "parsed": 5,
+      "correct": 5,
+      "pct": 100,
+      "seconds": "0.7",
+      "stage": "review",
+      "missing": [],
+      "extras": []
+    }
+  ]
+}

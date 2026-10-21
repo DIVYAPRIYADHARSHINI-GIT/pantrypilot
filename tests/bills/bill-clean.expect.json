@@ -1,0 +1,11 @@
+{
+  "title": "Clean layout",
+  "expect": [
+    "Milk",
+    "Tomato",
+    "Onion",
+    "Bread",
+    "Paneer",
+    "Eggs"
+  ]
+}

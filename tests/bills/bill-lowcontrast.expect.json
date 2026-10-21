@@ -1,0 +1,10 @@
+{
+  "title": "Low contrast / faded",
+  "expect": [
+    "Idli Rice",
+    "Urad Dal",
+    "Coconut",
+    "Curry Leaves",
+    "Mustard Seeds"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Many items",
+  "expect": [
+    "Rice",
+    "Wheat Flour",
+    "Toor Dal",
+    "Moong Dal",
+    "Sugar",
+    "Salt",
+    "Sunflower Oil",
+    "Tea Powder",
+    "Milk",
+    "Curd",
+    "Paneer",
+    "Butter",
+    "Eggs",
+    "Bread",
+    "Tomato",
+    "Onion",
+    "Potato",
+    "Apple",
+    "Banana",
+    "Detergent Powder",
+    "Carry Bag"
+  ]
+}
