@@ -73,7 +73,15 @@ export const GET: RequestHandler = async ({ params, fetch }) => {
 		});
 
 		if (!res.ok) {
-			const body = { found: false, code, message: 'Open Food Facts did not answer for this barcode.' };
+			// Open Food Facts answers 404 for a barcode it does not know
+			const body = {
+				found: false,
+				code,
+				message:
+					res.status === 404
+						? 'This product is not in Open Food Facts yet. Coverage of some Indian products is partial.'
+						: 'Open Food Facts did not answer for this barcode.'
+			};
 			cache.set(code, { at: Date.now(), body, status: 200 });
 			return json(body);
 		}

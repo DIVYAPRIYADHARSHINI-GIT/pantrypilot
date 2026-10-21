@@ -9,7 +9,7 @@ scanning the bill.
 Everything runs in your browser. No accounts, no database, no API keys. Bill photos
 are processed on your device and never leave it.
 
-- **Live demo:** https://pantrypilot-six.vercel.app
+- **Live demo:** https://pantrypilot-teal.vercel.app
 - **Repository:** https://github.com/DIVYAPRIYADHARSHINI-GIT/pantrypilot
 
 ![Home](docs/screenshots/home.png)
