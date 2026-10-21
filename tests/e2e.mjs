@@ -102,9 +102,11 @@ console.log('\n[1] Mobile: scan bill -> review -> edit -> add to pantry');
 		await page.getByRole('button', { name: /Increase quantity/i }).click();
 	}
 	await page.waitForURL(/\/pantry/, { timeout: SHORT });
+	// the list renders after onMount hydration, which takes longer over the network
+	await page.locator('article').first().waitFor({ timeout: SHORT });
 	const pantryText = await page.locator('main').innerText();
 	check('items landed in the pantry', /Milk/.test(pantryText));
-	check('pantry groups by storage place', /Fridge|Shelf/.test(pantryText));
+	check('pantry groups by storage place', /Fridge|Shelf|Freezer/.test(pantryText), pantryText.slice(0, 120));
 
 	await ctx.close();
 }

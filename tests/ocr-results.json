@@ -1,5 +1,5 @@
 {
-  "base": "http://127.0.0.1:4173",
+  "base": "https://pantrypilot-teal.vercel.app",
   "overall": 100,
   "results": [
     {
@@ -9,7 +9,7 @@
       "parsed": 6,
       "correct": 6,
       "pct": 100,
-      "seconds": "1.4",
+      "seconds": "3.5",
       "stage": "review",
       "missing": [],
       "extras": []
